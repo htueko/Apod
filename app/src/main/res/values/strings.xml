@@ -4,5 +4,7 @@
     <!--text-->
     <string name="text_offline">Local Data</string>
     <string name="text_online">Remote Server</string>
+    <string name="text_no_connection">No Internet Connection!</string>
+    <string name="text_open_network_setting">Open Wifi Settings</string>
 
 </resources>
