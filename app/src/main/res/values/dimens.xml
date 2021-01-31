@@ -18,4 +18,20 @@
     <dimen name="card_elevation">4dp</dimen>
     <dimen name="zero_elevation">0dp</dimen>
 
+    <!--Typography-->
+    <dimen name="textAppearanceHeadline1">96sp</dimen>
+    <dimen name="textAppearanceHeadline2">60sp</dimen>
+    <dimen name="textAppearanceHeadline3">48sp</dimen>
+    <dimen name="textAppearanceHeadline4">38sp</dimen>
+    <dimen name="textAppearanceHeadline5">24sp</dimen>
+    <dimen name="textAppearanceHeadline6">20sp</dimen>
+    <dimen name="textAppearanceSubtitle1">16sp</dimen>
+    <dimen name="textAppearanceSubtitle2">14sp</dimen>
+    <dimen name="textAppearanceBody1">16sp</dimen>
+    <dimen name="textAppearanceBody2">14sp</dimen>
+    <dimen name="textAppearanceCaption">12sp</dimen>
+    <dimen name="textAppearanceButton">14sp</dimen>
+    <dimen name="textAppearanceOverline">12sp</dimen>
+    <dimen name="appBarLayoutHeight">56dp</dimen>
+
 </resources>
