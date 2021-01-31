@@ -25,4 +25,10 @@
             app:argType="com.htueko.apod.data.model.Apod" />
     </fragment>
 
+    <fragment
+        android:id="@+id/remoteFragment"
+        android:name="com.htueko.apod.ui.fragment.RemoteFragment"
+        android:label="@string/text_online"
+        tools:layout="@layout/fragment_remote" />
+
 </navigation>
