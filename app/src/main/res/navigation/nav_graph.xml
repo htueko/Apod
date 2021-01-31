@@ -5,10 +5,24 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/localFragment">
 
+    <action
+        android:id="@+id/action_global_detailFragment"
+        app:destination="@id/detailFragment" />
+
     <fragment
         android:id="@+id/localFragment"
         android:name="com.htueko.apod.ui.fragment.LocalFragment"
         android:label="fragment_local"
         tools:layout="@layout/fragment_local" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.htueko.apod.ui.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="apod"
+            app:argType="com.htueko.apod.data.model.Apod" />
+    </fragment>
 
 </navigation>

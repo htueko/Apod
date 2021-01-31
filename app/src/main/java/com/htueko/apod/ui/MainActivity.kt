@@ -60,4 +60,12 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigationView.background = null
     }
 
+    /**
+     * set the visibility of BottomAppBar and AppBar according to [visible]
+     */
+    fun toggleNavView(visible: Boolean) {
+        binding.bottomAppBar.visibility = if (visible) View.VISIBLE else View.GONE
+        binding.appbar.visibility = if (visible) View.VISIBLE else View.GONE
+    }
+
 }

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.navigation.Navigation
 import com.htueko.apod.databinding.FragmentLocalBinding
 import com.htueko.apod.ui.adapter.ApodAdapter
 import com.htueko.apod.ui.viewmodel.LocalViewModel
@@ -16,7 +17,8 @@ class LocalFragment : BaseFragment<FragmentLocalBinding, LocalViewModel>() {
 
     override val viewModel: LocalViewModel by viewModels()
     private val mAdapter = ApodAdapter() {
-        // todo send Apod object for detail view
+        val action = DetailFragmentDirections.actionGlobalDetailFragment(it)
+        Navigation.findNavController(requireView()).navigate(action)
     }
 
     override fun getViewBinding(
