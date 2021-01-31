@@ -1,0 +1,13 @@
+/**
+ * project related version
+ */
+ext {
+    ProjectConfig = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.2",
+            minSdkVersion    : 23,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "0.0.1"
+    ]
+}
