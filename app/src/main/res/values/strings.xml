@@ -6,5 +6,6 @@
     <string name="text_online">Remote Server</string>
     <string name="text_no_connection">No Internet Connection!</string>
     <string name="text_open_network_setting">Open Wifi Settings</string>
+    <string name="text_detail">Detail</string>
 
 </resources>

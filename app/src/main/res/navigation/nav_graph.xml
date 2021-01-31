@@ -12,13 +12,13 @@
     <fragment
         android:id="@+id/localFragment"
         android:name="com.htueko.apod.ui.fragment.LocalFragment"
-        android:label="fragment_local"
+        android:label="@string/text_offline"
         tools:layout="@layout/fragment_local" />
 
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.htueko.apod.ui.fragment.DetailFragment"
-        android:label="fragment_detail"
+        android:label="@string/text_detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="apod"
