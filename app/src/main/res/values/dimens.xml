@@ -14,4 +14,7 @@
     <dimen name="dimen_96">96dp</dimen>
     <dimen name="dimen_128">128dp</dimen>
 
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
 </resources>
